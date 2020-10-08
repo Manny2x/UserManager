@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d87622eb-1d26-412f-9ba9-8b4a9736069a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ibJyeF87MPeacPMNT57LUNXYlr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Emman\IdeaProjects\Streams" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Program" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d87622eb-1d26-412f-9ba9-8b4a9736069a" name="Default Changelist" comment="" />
+      <created>1602170613640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602170613640</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="43" key="#Project_Structure" timestamp="1602176308196">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="272" y="43" key="#Project_Structure/0.0.1360.768@0.0.1360.768" timestamp="1602176308196" />
+    <state x="134" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602187394268">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="134" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.768@0.0.1360.768" timestamp="1602187394268" />
+    <state x="485" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1602188198574">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="485" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1360.768@0.0.1360.768" timestamp="1602188198574" />
+    <state x="409" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602187359601">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="409" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1360.768@0.0.1360.768" timestamp="1602187359601" />
+    <state x="460" y="126" key="FileChooserDialogImpl" timestamp="1602186833497">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="460" y="126" key="FileChooserDialogImpl/0.0.1360.768@0.0.1360.768" timestamp="1602186833497" />
+    <state width="1317" height="192" key="GridCell.Tab.0.bottom" timestamp="1602190795131">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1317" height="192" key="GridCell.Tab.0.bottom/0.0.1360.768@0.0.1360.768" timestamp="1602190795131" />
+    <state width="1317" height="192" key="GridCell.Tab.0.center" timestamp="1602190795131">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1317" height="192" key="GridCell.Tab.0.center/0.0.1360.768@0.0.1360.768" timestamp="1602190795131" />
+    <state width="1317" height="192" key="GridCell.Tab.0.left" timestamp="1602190795076">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1317" height="192" key="GridCell.Tab.0.left/0.0.1360.768@0.0.1360.768" timestamp="1602190795076" />
+    <state width="1317" height="192" key="GridCell.Tab.0.right" timestamp="1602190795131">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1317" height="192" key="GridCell.Tab.0.right/0.0.1360.768@0.0.1360.768" timestamp="1602190795131" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1602186837451">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="160" y="0" key="SettingsEditor/0.0.1360.768@0.0.1360.768" timestamp="1602186837451" />
+    <state x="376" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1602187790597">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="376" y="209" key="com.intellij.ide.util.TipDialog/0.0.1360.768@0.0.1360.768" timestamp="1602187790597" />
+    <state x="62" y="5" key="new project wizard" timestamp="1602171469020">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="62" y="5" key="new project wizard/0.0.1360.768@0.0.1360.768" timestamp="1602171469020" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Program.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UserManager" />
+  </component>
   <component name="ProjectId" id="1ibJyeF87MPeacPMNT57LUNXYlr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +19,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -40,12 +45,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserCreator" />
+      <module name="Streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.Program" />
+      <item itemvalue="Application.UserCreator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserCreator" />
         <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
@@ -84,10 +98,10 @@
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="134" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.768@0.0.1360.768" timestamp="1602187394268" />
-    <state x="485" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1602188198574">
+    <state x="485" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1602263967036">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state x="485" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1360.768@0.0.1360.768" timestamp="1602188198574" />
+    <state x="485" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1360.768@0.0.1360.768" timestamp="1602263967036" />
     <state x="409" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602187359601">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
@@ -96,42 +110,54 @@
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="460" y="126" key="FileChooserDialogImpl/0.0.1360.768@0.0.1360.768" timestamp="1602186833497" />
-    <state width="1317" height="192" key="GridCell.Tab.0.bottom" timestamp="1602190795131">
+    <state width="1316" height="200" key="GridCell.Tab.0.bottom" timestamp="1602280842725">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state width="1317" height="192" key="GridCell.Tab.0.bottom/0.0.1360.768@0.0.1360.768" timestamp="1602190795131" />
-    <state width="1317" height="192" key="GridCell.Tab.0.center" timestamp="1602190795131">
+    <state width="1316" height="200" key="GridCell.Tab.0.bottom/0.0.1360.768@0.0.1360.768" timestamp="1602280842725" />
+    <state width="1316" height="200" key="GridCell.Tab.0.center" timestamp="1602280842725">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state width="1317" height="192" key="GridCell.Tab.0.center/0.0.1360.768@0.0.1360.768" timestamp="1602190795131" />
-    <state width="1317" height="192" key="GridCell.Tab.0.left" timestamp="1602190795076">
+    <state width="1316" height="200" key="GridCell.Tab.0.center/0.0.1360.768@0.0.1360.768" timestamp="1602280842725" />
+    <state width="1316" height="200" key="GridCell.Tab.0.left" timestamp="1602280842724">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state width="1317" height="192" key="GridCell.Tab.0.left/0.0.1360.768@0.0.1360.768" timestamp="1602190795076" />
-    <state width="1317" height="192" key="GridCell.Tab.0.right" timestamp="1602190795131">
+    <state width="1316" height="200" key="GridCell.Tab.0.left/0.0.1360.768@0.0.1360.768" timestamp="1602280842724" />
+    <state width="1316" height="200" key="GridCell.Tab.0.right" timestamp="1602280842725">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state width="1317" height="192" key="GridCell.Tab.0.right/0.0.1360.768@0.0.1360.768" timestamp="1602190795131" />
+    <state width="1316" height="200" key="GridCell.Tab.0.right/0.0.1360.768@0.0.1360.768" timestamp="1602280842725" />
     <state x="160" y="0" key="SettingsEditor" timestamp="1602186837451">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="160" y="0" key="SettingsEditor/0.0.1360.768@0.0.1360.768" timestamp="1602186837451" />
-    <state x="376" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1602187790597">
+    <state x="376" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1602223124254">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
-    <state x="376" y="209" key="com.intellij.ide.util.TipDialog/0.0.1360.768@0.0.1360.768" timestamp="1602187790597" />
+    <state x="376" y="209" key="com.intellij.ide.util.TipDialog/0.0.1360.768@0.0.1360.768" timestamp="1602223124254" />
     <state x="62" y="5" key="new project wizard" timestamp="1602171469020">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="62" y="5" key="new project wizard/0.0.1360.768@0.0.1360.768" timestamp="1602171469020" />
+    <state x="386" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1602263693603">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="386" y="13" key="refactoring.ChangeSignatureDialog/0.0.1360.768@0.0.1360.768" timestamp="1602263693603" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Program.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="4" />
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Program.java</url>
+          <line>58</line>
+          <properties class="Program" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

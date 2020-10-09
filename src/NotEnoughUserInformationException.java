@@ -1,3 +1,5 @@
+import java.io.InputStreamReader;
+
 public class NotEnoughUserInformationException extends Exception{
 
     private int index;
@@ -8,9 +10,10 @@ public class NotEnoughUserInformationException extends Exception{
 
     private int retryAttempts = 0;
 
-    public void retryGeneration(UserCreator userCreator, int limit){
+    public void retryGeneration(UserCreator userCreator,
+                                InputStreamReader inputStreamReader){
         try {
-            userCreator.generateUsers(getIndex(), limit);
+            userCreator.generateUsers(this.getIndex(), inputStreamReader);
         } catch (NotEnoughUserInformationException e){
             retryAttempts++;
             if(retryAttempts >= 4){
@@ -18,7 +21,7 @@ public class NotEnoughUserInformationException extends Exception{
                 System.exit(1);
             }
 
-            retryGeneration(userCreator, limit);
+            retryGeneration(userCreator, inputStreamReader);
         }
     }
 

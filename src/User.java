@@ -5,11 +5,13 @@ public class User {
     private Integer age;
     private String userID;
     private String address;
+    private String phone;
 
-    User(String name, Integer age, String address){
+    User(String name, Integer age, String address, String phone){
         this.name = name;
         this.age = age;
         this.address = address;
+        this.phone = phone;
 
         StringBuilder userID =
                 new StringBuilder(name.charAt(0) + age);
@@ -49,6 +51,9 @@ public class User {
     public String getAddress(){
         return this.address;
     }
+    public String getPhone(){
+        return this.phone;
+    }
 
     @Override
     public String toString() {
@@ -57,6 +62,7 @@ public class User {
                 ", age=" + age +
                 ", userID='" + userID + '\'' +
                 ", address='" + address + '\'' +
+                ", phone='" + phone + '\'' +
                 '}';
     }
 }

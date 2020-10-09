@@ -1,7 +1,6 @@
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -29,10 +28,17 @@ public enum MapCommand {
                                 new User.SubUser(user.getName(),
                                     user.getAddress())));
         return userStream.collect(Collectors.toList());
-    }), END;
+    }),
+    PHONE((list) -> {
+        Stream<User.SubUser> userStream =
+                list.stream().filter((user) -> !user.getPhone().equals("NULL"))
+                        .map((user ->
+                                new User.SubUser(user.getName(),
+                                        user.getPhone())));
+        return userStream.collect(Collectors.toList());
+    }),END;
 
     FilterMap filterMap;
-    static List<User> list;
 
     MapCommand(FilterMap fMap){
         this.filterMap = fMap;
@@ -44,7 +50,8 @@ public enum MapCommand {
                 new ArrayList<>(Arrays.asList(MapCommand.ADDRESS,
                         MapCommand.AGE,
                         MapCommand.USER_ID,
-                        MapCommand.END));
+                        MapCommand.END,
+                        MapCommand.PHONE));
 
         for(MapCommand command : commands){
             if(str.toUpperCase().equals(
@@ -53,9 +60,5 @@ public enum MapCommand {
                 return command;
         }
         return null;
-    }
-
-    public static void setList(List<User> list){
-        MapCommand.list = list;
     }
 }
